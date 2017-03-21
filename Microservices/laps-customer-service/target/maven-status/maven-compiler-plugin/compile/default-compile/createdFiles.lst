@@ -1,0 +1,5 @@
+com\laps\customer\model\CustomerModel.class
+com\laps\customer\controller\CustomerController.class
+com\laps\customer\service\CustomerService.class
+com\laps\customer\CustomerServiceApplication.class
+com\laps\customer\repository\CustomerRepoistory.class
