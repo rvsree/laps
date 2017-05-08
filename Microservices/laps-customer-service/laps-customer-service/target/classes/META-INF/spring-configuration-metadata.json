@@ -1,0 +1,57 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.laps.customer.config.ApplicationProperties",
+      "name": "app",
+      "type": "com.laps.customer.config.ApplicationProperties"
+    },
+    {
+      "sourceType": "com.laps.customer.config.DatabaseProperties",
+      "name": "db",
+      "type": "com.laps.customer.config.DatabaseProperties"
+    },
+    {
+      "sourceType": "com.laps.customer.config.JmsProperties",
+      "name": "jms",
+      "type": "com.laps.customer.config.JmsProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.laps.customer.config.ApplicationProperties",
+      "name": "app.description",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.laps.customer.config.ApplicationProperties",
+      "name": "app.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.laps.customer.config.ApplicationProperties",
+      "name": "app.sealid",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.laps.customer.config.DatabaseProperties",
+      "name": "db.connection-u-r-l",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.laps.customer.config.DatabaseProperties",
+      "name": "db.driver-class",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.laps.customer.config.DatabaseProperties",
+      "name": "db.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.laps.customer.config.DatabaseProperties",
+      "name": "db.username",
+      "type": "java.lang.String"
+    }
+  ]
+}
