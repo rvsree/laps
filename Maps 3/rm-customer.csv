@@ -1,0 +1,11 @@
+[
+	{ "customerId": "P9001", "firstName": "Sreedharan", "lastName": "Radhakrishnan", "dateOfBirth": 49266000000, "gender": "Male", "maritalStatus": "Married", "customerType": 1 },
+	{ "customerId": "P9002", "firstName": "Umamaheswari", "lastName": "Sreedharan", "dateOfBirth": 49266000000, "gender": "Female", "maritalStatus": "Married", "customerType": 2 },
+	{ "customerId": "P9003", "firstName": "Chandrasekar", "lastName": "Sreedharan", "dateOfBirth": 49266000000, "gender": "Male", "maritalStatus": "Student", "customerType": 3 },
+	{ "customerId": "g8010", "firstName": "Ajith", "lastName": "Raman", "dateOfBirth": 49266000000, "gender": "Male", "maritalStatus": "Student", "customerType": 4 },
+	{ "customerId": "g8011", "firstName": "Srini", "lastName": "Sajja", "dateOfBirth": 49266000000, "gender": "Male", "maritalStatus": "Student", "customerType": 5 },
+	{ "customerId": "g8012", "firstName": "Chandra", "lastName": "Pengandi", "dateOfBirth": 49266000000, "gender": "Male", "maritalStatus": "Student", "customerType": 4 },
+	{ "customerId": "s7010", "firstName": "Balaji", "lastName": "Mnnupalli", "dateOfBirth": 49266000000, "gender": "Male", "maritalStatus": "Student", "customerType": 5 },
+	{ "customerId": "s7011", "firstName": "Pradheep", "lastName": "Thotapalli", "dateOfBirth": 49266000000, "gender": "Male", "maritalStatus": "Student", "customerType": 4 },
+	{ "customerId": "s7012", "firstName": "Sriram", "lastName": "Rangamani", "dateOfBirth": 49266000000, "gender": "Male", "maritalStatus": "Student", "customerType": 5 }
+]  

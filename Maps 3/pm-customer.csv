@@ -1,0 +1,11 @@
+[
+	{ "customerId": "P9001", "firstName": "Sreedharan", "lastName": "Radhakrishnan", "dateOfBirth": "07-25-1971", "age": 46, "gender": "Male", "maritalStatus": "Married", "customerType": 1 },
+	{ "customerId": "P9002", "firstName": "Umamaheswari", "lastName": "Sreedharan", "dateOfBirth": "07-28-1978", "age": 39, "gender": "Female", "maritalStatus": "Married", "customerType": 2 },
+	{ "customerId": "P9003", "firstName": "Chandrasekar", "lastName": "Sreedharan", "dateOfBirth": "05-03-2002", "age": 15, "gender": "Male", "maritalStatus": "Student", "customerType": 3 },
+	{ "customerId": "G8010", "firstName": "Ajith", "lastName": "Raman", "dateOfBirth": "06-04-1975", "age": 42, "gender": "Male", "maritalStatus": "Student", "customerType": 4 },
+	{ "customerId": "G8011", "firstName": "Srini", "lastName": "Sajja", "dateOfBirth": "08-13-1968", "age": 49, "gender": "Male", "maritalStatus": "Student", "customerType": 5 },
+	{ "customerId": "G8012", "firstName": "Chandra", "lastName": "Pengandi", "dateOfBirth": "04-02-1970", "age": 43, "gender": "Male", "maritalStatus": "Student", "customerType": 6 },
+	{ "customerId": "S6010", "firstName": "Balaji", "lastName": "Mennupalli", "dateOfBirth": "11-15-1983", "age": 32, "gender": "Male", "maritalStatus": "Student", "customerType": 7 },
+	{ "customerId": "S6011", "firstName": "Pradheep", "lastName": "Thotapalli", "dateOfBirth": "01-23-1973", "age": 48, "gender": "Male", "maritalStatus": "Student", "customerType": 8 },
+	{ "customerId": "S6012", "firstName": "Sriram", "lastName": "Rangamani", "dateOfBirth": "12-29-1972", "age": 44, "gender": "Male", "maritalStatus": "Student", "customerType": 9 }
+]  
