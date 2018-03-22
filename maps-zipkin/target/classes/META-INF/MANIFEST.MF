@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: maps-zipkin
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: RVSUC
+Implementation-Vendor-Id: com.mortgage.maps-zipkin
+Build-Jdk: 1.8.0_91
+Implementation-URL: http://projects.spring.io/spring-boot/maps-zipkin/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
