@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: maps-gateway
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: RVSUC
+Implementation-Vendor-Id: com.mortgage.maps-gateway
+Build-Jdk: 1.8.0_91
+Implementation-URL: http://projects.spring.io/spring-boot/maps-gateway
+ /
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
