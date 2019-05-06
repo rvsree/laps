@@ -1,0 +1,59 @@
+Dev Task - REST API
+1) Integrate ESign Module with LODW REST API (Parent Project)
+2) Commit ESign Impl to Bitbucket LODW-ESign Branch
+3) Impl ESign Repository and Persist the following in LODW Database:
+      a) Update EnvelopeId for CreateEnvelope - Successful and Failure Scenarios (for Retry Logic)
+	  b) Update DocuSign Async Status and Messages 
+	  c) Update Move Documents from DocuSign to CDS - Successful and Failure Scenarios (for Retry Logic)
+	  d) Update DocuSign (Business) Error Messages
+4) Crete API to ReSend EMail to Recipients when Two-Factor Auth Failure Scenarios	  
+5) Create API to Move Documents from DocuSign to CDS	  
+6) Configure ESign MQ in DocuSign
+7) Create ESign MQ Listener Component
+8) Crete API (Placeholder) for Retry Logic
+9) Optimize Impl using Multi-Threading for:
+      a) DocuSign FileManager (Create Envelope) 
+      b) CDS FileManager (Move Documents)
+10) Optimize & Re-Factor ESign API Impl
+11) Determine and Create Events to Trigger Retry Logic Component
+12) Research about Spring Boot Application Events
+
+Dev Task - Exception Handling  
+1) Custom Exceptions such as FileNotFoundError, DocuSign UploadDocumentError, CDS UploadDocumentError
+2) Add FileSize DB Table to TroubleShoot DocuSign UploadDoc, CDS Upload Document
+3) Add IOException Where Appropriate
+4) 
+
+15) Coding Rules (Ref: https://dzone.com/articles/the-java-8-api-design-principles)
+a) Do not Simply Call Optional.get()
+	DO: Optional<String> comment = // some Optional value 
+	DO NOT: String guiText = comment.map(c -> "Comment: " + c).orElse("");
+	
+b) Do not Return Null to Indicate the Absence of a Value
+	DO: public Stream<String> comments() {return Stream.of(comments);}
+	DO NOT: public String[] comments() {return comments; // Exposes the backing array!}
+	
+c)	Do not Use Arrays to Pass Values to and From the API 
+	DO: public Stream<String> comments() {return Stream.of(comments);}
+	DO NOT: public String[] comments() {return comments; // Exposes the backing array!}
+	
+Dev Task - Database
+1) Discuss and Finalize ESign Tables in LODW Database
+2) Create ESign Tables in LODW Database
+
+Business Requiments
+1) Determine File Naming Convention for LOD Documents
+2) Finalize Document Life-Cycle Enum Status
+3) Identify list of 9 Tempaltes for June-2019 Release
+
+Design Tasks
+1) Async Operation for CreateEnvelope API
+2) Evalaute Options to run ESign REST Child App insider LODW REST Parent App
+3) Create Visio Digram for End-2-End Workflow
+4) Analyse Sclability Issues, Identify Solutions & Workarounds
+5) Identify ESign API performance factors, bottlenecks and solutions/work arounds
+
+Dev Task - Unit Testing
+1) Write Unit Test Cases for ESign Components:
+   a) Docusign FileManager - Create Envelope, Get Envelope Status
+   b) CDS FileManager - Move Documents (Download Documents by Envelope-ID, Document-ID)
